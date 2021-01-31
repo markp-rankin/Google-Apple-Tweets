@@ -20,6 +20,7 @@ At this point, we have several decisions to make.
 - Do we lemmatize (a method of transforming words into their root)?
 - Do we SMOTE the minority class(where we create artificial data based on the minority class to address class imbalance)?
 - And what classification model do we choose? 
+
 Our answer is to use an iterative, layeerd approach (brute force). We pick three models we predict will have the best overall success, and run each combination of the above options and record each of the 24 results into a spreadsheet. Organization is necessary. Our interpretation of the results indicates our best model is Multinomial Naive Bayes using TF-IDF with lemmatization and SMOTE. Below we have highlighted the results and although the accuracy of this model is fairly high (0.83) we are concerned with the realtvely low recall (0.62). 
 
 #### !Spreadsheet pic
