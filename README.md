@@ -32,7 +32,7 @@ From our Random Forest model we extracted feature importances - which shows us t
 
 Finally, we split our data into four quadrants: first by company then by positive or negative. The simplest way is a word cloud. A striking visual with clear interpretaion, a word cloud is an effective tool to interpret words in terms of their strength of influence and importance to the subject. Creating four word clouds is a quick and easy way to compare and contrast and find results.
 
-![Word Cloud of Apple Positive Words](Images/WC-apple-positive-RM.png)Word cloud of Apple positivity.
+![Word Cloud of Apple Positive Words](Images/WC-apple-positive-RM.png)
 
 ## Our Recommendations!
 Our analysis focused on the negative Tweets of both companies. After all, our business is to find areas in which customer satisfaction is low and can be improved. 
