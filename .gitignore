@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 project lemma.ipynb
-project smote tdidf.ipynb
+project smote tfidf.ipynb
 project smote.ipynb
 project smote.ipynb
 project tfidf.ipynb
