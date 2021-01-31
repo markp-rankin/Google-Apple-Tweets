@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+project lemma.ipynb
+project smote tdidf.ipynb
+project smote.ipynb
+project smote.ipynb
+project tfidf.ipynb
+project.ipynb

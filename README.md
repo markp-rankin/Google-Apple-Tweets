@@ -23,7 +23,7 @@ At this point, we have several decisions to make.
 
 Our answer is to use an iterative, layeerd approach (brute force). We pick three models we predict will have the best overall success, and run each combination of the above options and record each of the 24 results into a spreadsheet. Organization is necessary. Our interpretation of the results indicates our best model is Multinomial Naive Bayes using TF-IDF with lemmatization and SMOTE. Below we have highlighted the results and although the accuracy of this model is fairly high (0.83) we are concerned with the realtvely low recall (0.62)
 
-![Our Modeling Process](Images/Model-Results-Best-RM.png)
+![Our Modeling Process](Images/Model-Results-Best-RM.jpg)
 
 ## Topic Modeling
 From our Random Forest model we extracted feature importances - which shows us the words in the tweets that help drive the model. But to go deeper, we use unsupervised modeling to explore relationshipis in our data. We use LDA, Latent Dirichlet Allocation, which is a method of "soft clustering." It takes in text data and processes it to vizualize relationships (topics) existing in the data without having to supply labels like "positive" or "negative." It will come to its conclusions without our help. From this, we can see how words will relate to each other (clusters) which will help us understand the data when we apply labels to it.
