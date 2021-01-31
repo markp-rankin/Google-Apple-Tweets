@@ -23,16 +23,16 @@ At this point, we have several decisions to make.
 
 Our answer is to use an iterative, layeerd approach (brute force). We pick three models we predict will have the best overall success, and run each combination of the above options and record each of the 24 results into a spreadsheet. Organization is necessary. Our interpretation of the results indicates our best model is Multinomial Naive Bayes using TF-IDF with lemmatization and SMOTE. Below we have highlighted the results and although the accuracy of this model is fairly high (0.83) we are concerned with the realtvely low recall (0.62)
 
-!Our Modeling Process(Images/Model-Results-Best-RM.png)
+![Our Modeling Process](Images/Model-Results-Best-RM.png)
 
 ## Topic Modeling
 From our Random Forest model we extracted feature importances - which shows us the words in the tweets that help drive the model. But to go deeper, we use unsupervised modeling to explore relationshipis in our data. We use LDA, Latent Dirichlet Allocation, which is a method of "soft clustering." It takes in text data and processes it to vizualize relationships (topics) existing in the data without having to supply labels like "positive" or "negative." It will come to its conclusions without our help. From this, we can see how words will relate to each other (clusters) which will help us understand the data when we apply labels to it.
 
-!LDA Analysis(Images/LDA-Google-negative-RM.png)
+![LDA Analysis](Images/LDA-Google-negative-RM.png)
 
 Finally, we split our data into four quadrants: first by company then by positive or negative. The simplest way is a word cloud. A striking visual with clear interpretaion, a word cloud is an effective tool to interpret words in terms of their strength of influence and importance to the subject. Creating four word clouds is a quick and easy way to compare and contrast and find results.
 
-!Word Cloud of Apple Positive Words(Images/WC-apple-positive-RM.png)Word cloud of Apple positivity.
+![Word Cloud of Apple Positive Words](Images/WC-apple-positive-RM.png)Word cloud of Apple positivity.
 
 ## Our Recommendations!
 Our analysis focused on the negative Tweets of both companies. After all, our business is to find areas in which customer satisfaction is low and can be improved. 
